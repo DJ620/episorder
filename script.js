@@ -16,6 +16,7 @@ function showOptions(show) {
             name.text(show.name);
             var image = $("<img>");
             image.attr("src", show.image_thumbnail_path);
+            image.addClass("option-img");
             optionDiv.attr("data-src", show.image_thumbnail_path);
             optionDiv.append(name, "<br>", image);
             $("#search-options").append(optionDiv, "<hr>");
@@ -79,15 +80,6 @@ $("#search-options").on("click", "div.option-div", function() {
     $("#search").css("display", "none");
     $("#search-options").empty();
 })
-
-// $(document).on("click", function() {
-//     if ($("#search").css('display') == 'block') {
-//     if ($(this) !== $("#search")) {
-//             $("#search").css("display", "none");
-//             $("#search-options").empty();
-//         }
-//     }
-// })
 
 $("#sort").on("click", function(event) {
     event.preventDefault();

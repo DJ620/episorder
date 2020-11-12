@@ -9,6 +9,11 @@
     box-shadow: 3px 3px 5px black;
 }
 
+.option-img:hover {
+    cursor: hand;
+    cursor: pointer;
+}
+
 .selected {
     height: 15vh;
     width: auto;

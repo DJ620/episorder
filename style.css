@@ -1,0 +1,15 @@
+#search {
+    display: none;
+    position: fixed;
+    top: 17vh;
+    left: 32vw;
+    max-width: 40vw;
+    max-height: 70vh;
+    overflow: scroll;
+    box-shadow: 3px 3px 5px black;
+}
+
+.selected {
+    height: 15vh;
+    width: auto;
+}

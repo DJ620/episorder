@@ -1,3 +1,15 @@
+.jumbotron {
+    background: url(tv-test.png);
+}
+
+h1 {
+    font-family: 'Audiowide', cursive;
+}
+
+body {
+    background-color: rgb(72, 72, 218);
+}
+
 #search {
     display: none;
     position: fixed;
@@ -9,7 +21,7 @@
     box-shadow: 3px 3px 5px black;
 }
 
-.option-img:hover {
+.option-div:hover {
     cursor: hand;
     cursor: pointer;
 }

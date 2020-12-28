@@ -92,3 +92,5 @@ $("#clear").on("click", function() {
     $("#chosen").empty();
     episodesArr.splice(0);
 })
+
+//tvmaze.com
